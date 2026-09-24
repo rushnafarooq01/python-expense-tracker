@@ -1,7 +1,7 @@
 # 💰 Smart Expense Tracker with Data Analytics
 
-Beginner-level Python console mini project. Roz mareez expenses track karne ke saath
-saath Pandas, NumPy, aur Matplotlib use karke data analyze aur visualize bhi karta hai.
+A beginner-level Python console mini project for tracking daily expenses, combined
+with Pandas, NumPy, and Matplotlib to analyze and visualize spending data.
 
 ## Features
 
@@ -30,8 +30,9 @@ pip install -r requirements.txt
 python expense_tracker.py
 ```
 
-Menu se option (1-9) choose karein. Expenses `expenses.csv` mein automatically save
-ho jayenge — jab dobara app chalayenge, purana data khud load ho jayega.
+Choose an option (1-9) from the menu. Expenses are automatically saved to
+`expenses.csv` — the next time you run the app, your existing data loads
+automatically.
 
 ## Project Structure
 
@@ -45,28 +46,13 @@ expense-analytics-tracker/
 
 ## Sample Workflow
 
-1. Option 1 se 8-10 dummy expenses add karein (different categories: Food, Travel,
-   Bills, Shopping — 2-3 different months ki dates ke sath).
-2. Option 4 se category-wise totals dekhein.
-3. Option 5 se statistics (average, highest, lowest expense) dekhein.
-4. Option 6, 7, 8 se charts generate karein — yeh screenshots resume/portfolio ke
-   liye use kar sakte hain.
+1. Use option 1 to add 8-10 sample expenses across different categories (Food,
+   Travel, Bills, Shopping) and a few different months.
+2. Use option 4 to view category-wise totals.
+3. Use option 5 to view statistics (average, highest, lowest expense).
+4. Use options 6, 7, and 8 to generate charts — these can be captured as
+   screenshots for your resume or portfolio.
 
-## Resume Bullet Points (copy-paste ready)
-
-- Built a console-based **Expense Tracker** in Python with persistent CSV storage
-  and CRUD operations (add, view, total).
-- Integrated **Pandas** for category-wise expense aggregation using `groupby()`.
-- Applied **NumPy** for statistical analysis (mean, median, standard deviation) of
-  spending data.
-- Created data visualizations (bar, pie, line charts) using **Matplotlib** to show
-  spending patterns and monthly trends.
-- Practiced clean code structure, error handling (invalid date/amount input), and
-  file I/O in Python.
-
-## Possible Next Steps (agar aage improve karna ho)
-
-- SQLite database use karein CSV ki jagah
-- Budget limit alerts add karein (agar category ka spending limit cross ho jaye)
-- Streamlit se isko web app mein convert karein
-- Export analytics report as PDF
+pending exceeds a set limit)
+- Convert to a web app using Streamlit
+- Export the analytics report as a PDF
