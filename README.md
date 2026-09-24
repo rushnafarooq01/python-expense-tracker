@@ -26,7 +26,7 @@ with Pandas, NumPy, and Matplotlib to analyze and visualize spending data.
 ## How to Run
 
 ```bash
-pip install -r requirements.txt
+
 python expense_tracker.py
 ```
 
@@ -39,7 +39,6 @@ automatically.
 ```
 expense-analytics-tracker/
 ├── expense_tracker.py   # main app (CRUD + analytics + charts)
-├── requirements.txt      # dependencies
 ├── README.md              # this file
 └── expenses.csv           # auto-created after first expense (not included)
 ```
